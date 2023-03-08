@@ -50,13 +50,15 @@
 
   &__heading {
     font-family: $ff-headings;
-    margin-block-end: 2rem;
+    margin-block-end: 1rem;
+    color: $neutral-color-2;
+    font-size: 1.5rem;
+    padding-inline: 2rem;
   }
 
   &__text {
     font-family: $ff-body-cta;
-    font-size: $fs-body;
-    padding-inline: 1.25rem;
+    padding-inline: 1rem;
     color: $neutral-color-2;
   }
 }

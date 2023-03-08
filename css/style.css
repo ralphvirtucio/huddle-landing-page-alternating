@@ -118,13 +118,31 @@ select {
 }
 .introductory__heading {
   font-family: "Poppins", sans-serif;
-  margin-block-end: 2rem;
+  margin-block-end: 1rem;
+  color: hsl(192deg, 100%, 9%);
+  font-size: 1.5rem;
+  padding-inline: 2rem;
 }
 .introductory__text {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.125rem;
-  padding-inline: 1.25rem;
+  padding-inline: 1rem;
   color: hsl(192deg, 100%, 9%);
+}
+
+.introductory__btn {
+  display: inline-block;
+  margin-block-start: 2rem;
+  margin-block-end: 3rem;
+  background-color: hsl(322deg, 100%, 66%);
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  padding-inline: 4rem;
+  padding-block: 0.75rem;
+  border-radius: 100px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  font-weight: 600;
+  font-size: 0.85rem;
 }
 
 /*# sourceMappingURL=style.css.map */

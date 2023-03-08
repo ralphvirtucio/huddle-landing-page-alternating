@@ -1,0 +1,17 @@
+@use '../abstracts/' as *;
+
+.introductory__btn {
+  display: inline-block;
+  margin-block-start: 2rem;
+  margin-block-end: 3rem;
+  background-color: $primary-color-1;
+  color: #fff;
+  font-family: $ff-body-cta;
+  text-decoration: none;
+  padding-inline: 4rem;
+  padding-block: 0.75rem;
+  border-radius: 100px;
+  box-shadow: 0 2px 12px rgba($color: #000000, $alpha: 0.15);
+  font-weight: $fw-600;
+  font-size: 0.85rem;
+}
