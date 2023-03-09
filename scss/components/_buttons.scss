@@ -1,14 +1,14 @@
-@use '../abstracts/' as *;
+// @use '../abstracts/' as *;
 
-.introductory__btn {
-  @include default-btn;
-  display: inline-block;
-  margin-block-start: 2rem;
-  margin-block-end: 3rem;
-  background-color: $primary-color-1;
-  color: #fff;
-  padding-inline: 4rem;
-  padding-block: 0.75rem;
-  font-weight: $fw-600;
-  font-size: 0.85rem;
-}
+// .introductory__btn {
+//   @include default-btn;
+//   display: inline-block;
+//   margin-block-start: 2rem;
+//   margin-block-end: 3rem;
+//   background-color: $primary-color-1;
+//   color: #fff;
+//   padding-inline: 4rem;
+//   padding-block: 0.75rem;
+//   font-weight: $fw-600;
+//   font-size: 0.85rem;
+// }

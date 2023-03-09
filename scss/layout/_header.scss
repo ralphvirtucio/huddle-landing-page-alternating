@@ -1,64 +1,65 @@
-@use '../abstracts/' as *;
+// @use '../abstracts/' as *;
 
-.huddle__header {
-  background-image: url('../../images/bg-hero-mobile.svg');
-  background-color: $neutral-color-1;
-  background-repeat: no-repeat;
-  background-position: top;
-}
+// .huddle__header {
+//   background-image: url('../../images/bg-hero-mobile.svg');
+//   background-color: $neutral-color-1;
+//   background-repeat: no-repeat;
+//   background-position: top;
+//   margin-block-end: 5rem;
+// }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 90%;
-  padding-block-start: 1.5rem;
-  margin-inline: auto;
-  margin-block-end: 5rem;
+// .header {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   max-width: 90%;
+//   padding-block-start: 1.5rem;
+//   margin-inline: auto;
+//   margin-block-end: 5rem;
 
-  &__logo {
-    width: 30%;
-  }
+//   &__logo {
+//     width: 30%;
+//   }
 
-  &__btn {
-    @include default-btn;
-    color: $neutral-color-2;
-    font-weight: $fw-700;
-    padding-block: 0.25rem;
-    padding-inline: 1.5rem;
-    background-color: #fff;
+//   &__btn {
+//     @include default-btn;
+//     color: $neutral-color-2;
+//     font-weight: $fw-700;
+//     padding-block: 0.25rem;
+//     padding-inline: 1.5rem;
+//     background-color: #fff;
 
-    &:visited {
-      color: $neutral-color-2;
-    }
-    &:active {
-      color: $neutral-color-2;
-    }
-  }
-}
+//     &:visited {
+//       color: $neutral-color-2;
+//     }
+//     &:active {
+//       color: $neutral-color-2;
+//     }
+//   }
+// }
 
-.introductory {
-  text-align: center;
-  max-width: 90%;
-  margin-inline: auto;
-  padding-block-end: 3rem;
+// .introductory {
+//   text-align: center;
+//   max-width: 90%;
+//   margin-inline: auto;
+//   padding-block-end: 3rem;
 
-  &__heading {
-    font-family: $ff-headings;
-    margin-block-end: 1rem;
-    color: $neutral-color-2;
-    font-size: 1.5rem;
-    padding-inline: 2rem;
-  }
+//   &__heading {
+//     font-family: $ff-headings;
+//     margin-block-end: 1rem;
+//     color: $neutral-color-2;
+//     font-size: 1.5rem;
+//     padding-inline: 2rem;
+//   }
 
-  &__text {
-    font-family: $ff-body-cta;
-    padding-inline: 1rem;
-    color: $neutral-color-2;
-  }
+//   &__text {
+//     font-family: $ff-body-cta;
+//     padding-inline: 1rem;
+//     color: $neutral-color-2;
+//   }
 
-  &__illustration {
-    width: 90%;
-    margin-inline: auto;
-  }
-}
+//   &__illustration {
+//     width: 90%;
+//     margin-inline: auto;
+//   }
+// }
