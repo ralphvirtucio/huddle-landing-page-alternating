@@ -1,0 +1,13 @@
+@use '../abstracts/' as *;
+
+.introductory__section {
+  width: 80%;
+  max-width: 70rem;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.introductory__cta {
+  margin-block-start: 3rem;
+  margin-block-end: 3rem;
+}
