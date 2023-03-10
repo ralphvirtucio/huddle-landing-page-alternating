@@ -255,6 +255,12 @@ select {
 .footer__site-map--col li:not(.footer__site-map--col:last-child) {
   margin-block-end: 1rem;
 }
+.footer__copyright {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  text-align: center;
+}
 
 .get-started__btn {
   text-decoration: none;
@@ -268,6 +274,23 @@ select {
   color: #fff;
   font-weight: 600;
   font-size: 0.85rem;
+}
+
+.footer__social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.footer__social-media--link {
+  width: 1rem;
+  height: auto;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  padding-block: 0.25rem;
+}
+.footer__social-media--link svg {
+  fill: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
