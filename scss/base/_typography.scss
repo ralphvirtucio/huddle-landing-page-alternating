@@ -12,3 +12,16 @@
     color: $neutral-color-2;
   }
 }
+
+.huddle__main {
+  &--heading {
+    font-family: $ff-headings;
+    color: $neutral-color-2;
+    margin-block-end: 1.25rem;
+  }
+
+  &--text {
+    font-family: $ff-body-cta;
+    color: $neutral-color-3;
+  }
+}

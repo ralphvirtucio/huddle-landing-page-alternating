@@ -1,0 +1,40 @@
+@use '../abstracts' as *;
+
+.huddle__main {
+  width: 90%;
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-block-start: 3rem;
+
+  &--section {
+    // border: 1px solid red;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba($color: #000000, $alpha: 0.15);
+
+    &:not(&:last-child) {
+      margin-block-end: 2rem;
+    }
+  }
+
+  &--row {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-block: 3rem;
+    text-align: center;
+    width: 85%;
+    max-width: 120rem;
+    margin-inline: auto;
+  }
+
+  &--content {
+    order: 1;
+  }
+
+  &--img {
+  }
+}
+
+.pd-inline-sm {
+  padding-inline: 1rem;
+}

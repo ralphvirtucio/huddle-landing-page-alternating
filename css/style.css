@@ -81,6 +81,16 @@ select {
   color: hsl(192deg, 100%, 9%);
 }
 
+.huddle__main--heading {
+  font-family: "Poppins", sans-serif;
+  color: hsl(192deg, 100%, 9%);
+  margin-block-end: 1.25rem;
+}
+.huddle__main--text {
+  font-family: "Open Sans", sans-serif;
+  color: hsl(208deg, 11%, 55%);
+}
+
 .huddle__introductory {
   background-image: url("../../images/bg-hero-mobile.svg");
   background-color: hsl(193deg, 100%, 96%);
@@ -136,6 +146,36 @@ select {
 .introductory__cta {
   margin-block-start: 3rem;
   margin-block-end: 3rem;
+}
+
+.huddle__main {
+  width: 90%;
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-block-start: 3rem;
+}
+.huddle__main--section {
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+.huddle__main--section:not(.huddle__main--section:last-child) {
+  margin-block-end: 2rem;
+}
+.huddle__main--row {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-block: 3rem;
+  text-align: center;
+  width: 85%;
+  max-width: 120rem;
+  margin-inline: auto;
+}
+.huddle__main--content {
+  order: 1;
+}
+.pd-inline-sm {
+  padding-inline: 1rem;
 }
 
 .get-started__btn {
