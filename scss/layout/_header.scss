@@ -21,3 +21,25 @@
 .header__logo {
   width: 30%;
 }
+
+.header__btn {
+  @include default-btn;
+  background-color: #fff;
+  color: $neutral-color-2;
+  font-family: $ff-body-cta;
+  padding-inline: 1.5rem;
+  font-weight: $fw-600;
+  padding-block: 0.35rem;
+
+  &:link {
+    color: $neutral-color-2;
+  }
+
+  &:active {
+    color: $neutral-color-2;
+  }
+
+  &:visited {
+    color: $neutral-color-2;
+  }
+}
