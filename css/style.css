@@ -91,6 +91,12 @@ select {
   color: hsl(208deg, 11%, 55%);
 }
 
+.cta h2 {
+  font-size: 1.125rem;
+  font-family: "Open Sans", sans-serif;
+  color: hsl(192deg, 100%, 9%);
+}
+
 .huddle__introductory {
   background-image: url("../../images/bg-hero-mobile.svg");
   background-color: hsl(193deg, 100%, 96%);
@@ -143,7 +149,7 @@ select {
   text-align: center;
 }
 
-.introductory__cta {
+.introductory__btn--container {
   margin-block-start: 3rem;
   margin-block-end: 3rem;
 }
@@ -164,7 +170,7 @@ select {
 .huddle__main--row {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 3rem;
   padding-block: 3rem;
   text-align: center;
   width: 85%;
@@ -174,8 +180,26 @@ select {
 .huddle__main--content {
   order: 1;
 }
+
 .pd-inline-sm {
   padding-inline: 1rem;
+}
+
+.cta {
+  border-radius: 18px;
+  text-align: center;
+  padding-block: 2rem;
+  padding-inline: 1rem;
+  transform: translateY(50px);
+  background-color: #fff;
+}
+.cta__get-started__btn--container {
+  margin-block-start: 2rem;
+}
+
+footer {
+  background-color: hsl(192deg, 100%, 9%);
+  padding-block-start: 8rem;
 }
 
 .get-started__btn {

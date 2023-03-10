@@ -1,0 +1,14 @@
+@use '../abstracts' as *;
+
+.cta {
+  border-radius: 18px;
+  text-align: center;
+  padding-block: 2rem;
+  padding-inline: 1rem;
+  transform: translateY(50px);
+  background-color: #fff;
+
+  &__get-started__btn--container {
+    margin-block-start: 2rem;
+  }
+}

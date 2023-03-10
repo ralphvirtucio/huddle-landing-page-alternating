@@ -1,0 +1,6 @@
+@use '../abstracts/' as *;
+
+footer {
+  background-color: $neutral-color-2;
+  padding-block-start: 8rem;
+}
