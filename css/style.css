@@ -98,15 +98,30 @@ select {
   color: hsl(192deg, 100%, 9%);
   margin-block-end: 1.25rem;
 }
+@media (min-width: 1440px) {
+  .huddle__main--heading {
+    font-size: 1.75rem;
+  }
+}
 .huddle__main--text {
   font-family: "Open Sans", sans-serif;
   color: hsl(208deg, 11%, 55%);
+}
+@media (min-width: 1440px) {
+  .huddle__main--text {
+    font-size: 1.125rem;
+  }
 }
 
 .cta h2 {
   font-size: 1.125rem;
   font-family: "Open Sans", sans-serif;
   color: hsl(192deg, 100%, 9%);
+}
+@media (min-width: 900px) {
+  .cta h2 {
+    font-size: 2rem;
+  }
 }
 
 .huddle__introductory {
@@ -174,7 +189,7 @@ select {
 
 .introductory__btn--container {
   margin-block-start: 3rem;
-  margin-block-end: 3rem;
+  margin-block: 3rem;
 }
 
 @media (min-width: 900px) {
@@ -209,9 +224,14 @@ select {
 
 .huddle__main {
   width: 90%;
-  max-width: 80rem;
+  max-width: 90rem;
   margin-inline: auto;
   padding-block-start: 5rem;
+}
+@media (min-width: 1440px) {
+  .huddle__main {
+    padding-block-start: 10rem;
+  }
 }
 .huddle__main--section {
   border-radius: 16px;
@@ -230,12 +250,45 @@ select {
   max-width: 120rem;
   margin-inline: auto;
 }
+@media (min-width: 900px) {
+  .huddle__main--row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+  }
+}
+@media (min-width: 900px) {
+  .huddle__main--row__flip {
+    flex-direction: row-reverse;
+  }
+}
 .huddle__main--content {
   order: 1;
+}
+@media (min-width: 900px) {
+  .huddle__main--content {
+    order: 0;
+  }
+}
+@media (min-width: 1440px) {
+  .huddle__main--content {
+    width: 40%;
+  }
+}
+@media (min-width: 1440px) {
+  .huddle__main--img {
+    width: 40%;
+  }
 }
 
 .pd-inline-sm {
   padding-inline: 1rem;
+}
+@media (min-width: 900px) {
+  .pd-inline-sm {
+    padding-inline: 0;
+  }
 }
 
 .cta {
@@ -247,8 +300,20 @@ select {
   background-color: #fff;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
+@media (min-width: 1440px) {
+  .cta {
+    width: 60%;
+    margin-inline: auto;
+    padding-block: 4rem;
+  }
+}
 .cta__get-started__btn--container {
   margin-block-start: 2rem;
+}
+@media (min-width: 1440px) {
+  .cta__get-started__btn--container {
+    margin-block-start: 3rem;
+  }
 }
 
 .footer {
@@ -325,6 +390,13 @@ select {
   color: #fff;
   font-weight: 600;
   font-size: 0.85rem;
+}
+@media (min-width: 900px) {
+  .get-started__btn {
+    font-size: 1.125rem;
+    padding-block: 1.25rem;
+    padding-inline: 5rem;
+  }
 }
 
 .footer__social-media {

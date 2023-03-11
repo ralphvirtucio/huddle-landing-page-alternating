@@ -2,9 +2,13 @@
 
 .huddle__main {
   width: 90%;
-  max-width: 80rem;
+  max-width: 90rem;
   margin-inline: auto;
   padding-block-start: 5rem;
+
+  @media (min-width: 1440px) {
+    padding-block-start: 10rem;
+  }
 
   &--section {
     // border: 1px solid red;
@@ -24,16 +28,44 @@
     width: 85%;
     max-width: 120rem;
     margin-inline: auto;
+
+    @media (min-width: 900px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      text-align: start;
+    }
+
+    &__flip {
+      @media (min-width: 900px) {
+        flex-direction: row-reverse;
+      }
+    }
   }
 
   &--content {
     order: 1;
+
+    @media (min-width: 900px) {
+      order: 0;
+    }
+
+    @media (min-width: 1440px) {
+      width: 40%;
+    }
   }
 
-  // &--img {
-  // }
+  &--img {
+    @media (min-width: 1440px) {
+      width: 40%;
+    }
+  }
 }
 
 .pd-inline-sm {
   padding-inline: 1rem;
+
+  @media (min-width: 900px) {
+    padding-inline: 0;
+  }
 }

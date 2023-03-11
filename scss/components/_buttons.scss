@@ -8,6 +8,12 @@
   color: #fff;
   font-weight: $fw-600;
   font-size: 0.85rem;
+
+  @media (min-width: 900px) {
+    font-size: $fs-body;
+    padding-block: 1.25rem;
+    padding-inline: 5rem;
+  }
 }
 
 .footer__social-media {

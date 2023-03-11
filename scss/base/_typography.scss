@@ -26,11 +26,19 @@
     font-family: $ff-headings;
     color: $neutral-color-2;
     margin-block-end: 1.25rem;
+
+    @media (min-width: 1440px) {
+      font-size: 1.75rem;
+    }
   }
 
   &--text {
     font-family: $ff-body-cta;
     color: $neutral-color-3;
+
+    @media (min-width: 1440px) {
+      font-size: $fs-body;
+    }
   }
 }
 
@@ -39,5 +47,9 @@
     font-size: $fs-body;
     font-family: $ff-body-cta;
     color: $neutral-color-2;
+
+    @media (min-width: 900px) {
+      font-size: 2rem;
+    }
   }
 }

@@ -9,7 +9,17 @@
   background-color: #fff;
   box-shadow: 0 2px 12px rgba($color: #000000, $alpha: 0.1);
 
+  @media (min-width: 1440px) {
+    width: 60%;
+    margin-inline: auto;
+    padding-block: 4rem;
+  }
+
   &__get-started__btn--container {
     margin-block-start: 2rem;
+
+    @media (min-width: 1440px) {
+      margin-block-start: 3rem;
+    }
   }
 }
