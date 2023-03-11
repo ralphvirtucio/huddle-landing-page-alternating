@@ -184,10 +184,14 @@ select {
   }
 }
 
+.introductory__content {
+  padding-inline: 1rem;
+}
 @media (min-width: 900px) {
   .introductory__content {
     align-self: center;
     width: 40%;
+    padding-inline: 0;
   }
 }
 
