@@ -11,12 +11,35 @@
     width: 90%;
     max-width: 120rem;
     margin-inline: auto;
+
+    @media (min-width: 1440px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
   }
 
   &__logo {
     width: 50%;
     max-width: 10rem;
     margin-block-end: 1rem;
+
+    @media (min-width: 1440px) {
+      grid-area: 1 / span 4;
+    }
+  }
+
+  &__row {
+    @media (min-width: 1440px) {
+      grid-area: 2 / span 4;
+      display: flex;
+      gap: 10rem;
+    }
+
+    & > div {
+      @media (min-width: 1440px) {
+        flex: 1;
+      }
+    }
   }
 
   &__contact {
@@ -24,6 +47,10 @@
     flex-direction: column;
     gap: 2rem;
     margin-block-end: 3rem;
+
+    @media (min-width: 1440px) {
+      margin-block-end: 0;
+    }
 
     &--location {
       align-self: baseline;
@@ -43,6 +70,17 @@
 
   &__site-map {
     margin-block-end: 5rem;
+
+    @media (min-width: 1440px) {
+      margin-block-end: 0;
+    }
+
+    @media (min-width: 1440px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center;
+    }
+
     a {
       text-decoration: none;
       font-family: $ff-body-cta;
@@ -74,5 +112,17 @@
     font-weight: 400;
     font-size: 0.75rem;
     text-align: center;
+
+    @media (min-width: 1440px) {
+      margin-top: auto;
+    }
+  }
+}
+
+.footer__col--3 {
+  @media (min-width: 1440px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
