@@ -151,6 +151,11 @@ select {
 .header__logo {
   width: 8rem;
 }
+@media (min-width: 900px) {
+  .header__logo {
+    width: 12rem;
+  }
+}
 
 .header__btn {
   text-decoration: none;
@@ -158,12 +163,19 @@ select {
   font-size: 0.85rem;
   font-family: "Open Sans", sans-serif;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
-  background-color: #fff;
+  background-color: hsl(0deg, 0%, 100%);
   color: hsl(192deg, 100%, 9%);
   font-family: "Open Sans", sans-serif;
   padding-inline: 1.5rem;
   font-weight: 600;
   padding-block: 0.35rem;
+}
+@media (min-width: 900px) {
+  .header__btn {
+    font-size: 1.125rem;
+    padding-block: 1rem;
+    padding-inline: 5rem;
+  }
 }
 .header__btn:link {
   color: hsl(192deg, 100%, 9%);
@@ -173,6 +185,10 @@ select {
 }
 .header__btn:visited {
   color: hsl(192deg, 100%, 9%);
+}
+.header__btn:hover {
+  box-shadow: 0 2px 11px rgba(0, 0, 0, 0.2);
+  color: hsl(208deg, 11%, 55%);
 }
 
 .introductory__section {
@@ -205,7 +221,7 @@ select {
 @media (min-width: 900px) {
   .introductory__content {
     align-self: center;
-    width: 43%;
+    width: 48%;
   }
 }
 @media (min-width: 1440px) {
@@ -409,6 +425,9 @@ select {
 .footer__site-map a:visited {
   color: #fff;
 }
+.footer__site-map a:hover {
+  text-decoration: underline;
+}
 .footer__site-map--col li:not(.footer__site-map--col:last-child) {
   margin-block-end: 1rem;
 }
@@ -443,7 +462,6 @@ select {
   padding-block: 0.7rem;
   color: #fff;
   font-weight: 600;
-  font-size: 0.85rem;
 }
 @media (min-width: 900px) {
   .get-started__btn {
@@ -452,10 +470,20 @@ select {
     padding-inline: 5rem;
   }
 }
+.get-started__btn:hover {
+  background-color: #ff9edb;
+}
 
 .cta__get-started__btn {
   padding-block: 1rem;
   padding-inline: 3rem;
+}
+@media (min-width: 900px) {
+  .cta__get-started__btn {
+    font-size: 1.125rem;
+    padding-block: 1.25rem;
+    padding-inline: 5rem;
+  }
 }
 
 .footer__social-media {
@@ -474,6 +502,12 @@ select {
   text-decoration: none;
   border: 1px solid #fff;
   border-radius: 100px;
+}
+.footer__social-media--link:hover {
+  border-color: hsl(322deg, 100%, 66%);
+}
+.footer__social-media--link:hover svg {
+  fill: hsl(322deg, 100%, 66%);
 }
 .footer__social-media--link svg {
   fill: #fff;

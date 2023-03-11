@@ -7,17 +7,27 @@
   padding-block: 0.7rem;
   color: #fff;
   font-weight: $fw-600;
-  font-size: 0.85rem;
+  // font-size: 0.85rem;
 
   @media (min-width: 900px) {
     font-size: $fs-body;
     padding-block: 1.25rem;
     padding-inline: 5rem;
   }
+
+  &:hover {
+    background-color: lighten(hsl(322, 100%, 66%), 15%);
+  }
 }
 .cta__get-started__btn {
   padding-block: 1rem;
   padding-inline: 3rem;
+
+  @media (min-width: 900px) {
+    font-size: $fs-body;
+    padding-block: 1.25rem;
+    padding-inline: 5rem;
+  }
 }
 
 .footer__social-media {
@@ -36,6 +46,14 @@
     text-decoration: none;
     border: 1px solid #fff;
     border-radius: 100px;
+
+    &:hover {
+      border-color: $primary-color-1;
+
+      svg {
+        fill: $primary-color-1;
+      }
+    }
 
     svg {
       fill: #fff;
