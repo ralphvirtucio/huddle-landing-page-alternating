@@ -235,7 +235,7 @@ select {
   font-family: "Open Sans", sans-serif;
 }
 .footer__site-map {
-  margin-block-end: 2rem;
+  margin-block-end: 5rem;
 }
 .footer__site-map a {
   text-decoration: none;
