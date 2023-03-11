@@ -1,13 +1,37 @@
 @use '../abstracts/' as *;
 
 .introductory__section {
-  width: 80%;
-  max-width: 70rem;
+  width: 90%;
+  max-width: 150rem;
+
   margin-inline: auto;
   text-align: center;
+
+  @media (min-width: 900px) {
+    text-align: start;
+  }
 }
 
 .introductory__btn--container {
   margin-block-start: 3rem;
   margin-block-end: 3rem;
+}
+
+.row {
+  @media (min-width: 900px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.introductory__content {
+  @media (min-width: 900px) {
+    align-self: center;
+    width: 40%;
+  }
+}
+.introductory__illustration--container {
+  @media (min-width: 900px) {
+    width: 50%;
+  }
 }
