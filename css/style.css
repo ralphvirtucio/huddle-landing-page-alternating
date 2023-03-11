@@ -299,11 +299,12 @@ select {
   transform: translateY(80px);
   background-color: #fff;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 50rem;
+  margin-inline: auto;
 }
-@media (min-width: 1440px) {
+@media (min-width: 900px) {
   .cta {
-    width: 60%;
-    margin-inline: auto;
     padding-block: 4rem;
   }
 }
@@ -450,6 +451,11 @@ select {
     padding-block: 1.25rem;
     padding-inline: 5rem;
   }
+}
+
+.cta__get-started__btn {
+  padding-block: 1rem;
+  padding-inline: 3rem;
 }
 
 .footer__social-media {
