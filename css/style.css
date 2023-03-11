@@ -147,6 +147,11 @@ select {
   width: 90%;
   max-width: 150rem;
 }
+@media (min-width: 1440px) {
+  .huddle__header {
+    padding-block-start: 3rem;
+  }
+}
 
 .header__logo {
   width: 8rem;

@@ -21,6 +21,10 @@
   margin-block-end: 5rem;
   width: 90%;
   max-width: 150rem;
+
+  @media (min-width: 1440px) {
+    padding-block-start: 3rem;
+  }
 }
 
 .header__logo {
