@@ -29,6 +29,11 @@
 
   @media (min-width: 900px) {
     align-self: center;
+    width: 43%;
+  }
+
+  @media (min-width: 1440px) {
+    align-self: center;
     width: 40%;
     padding-inline: 0;
   }

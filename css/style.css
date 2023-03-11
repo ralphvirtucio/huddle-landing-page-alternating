@@ -78,7 +78,7 @@ select {
   color: hsl(192deg, 100%, 9%);
   margin-block-end: 2rem;
 }
-@media (min-width: 900px) {
+@media (min-width: 1440px) {
   .introductory__heading {
     font-size: 2.5rem;
   }
@@ -87,7 +87,7 @@ select {
   font-family: "Open Sans", sans-serif;
   color: hsl(192deg, 100%, 9%);
 }
-@media (min-width: 900px) {
+@media (min-width: 1440px) {
   .introductory__text {
     font-size: 1.125rem;
   }
@@ -126,7 +126,7 @@ select {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block-start: 1.25rem;
+  padding-block-start: 2rem;
   margin-inline: auto;
   margin-block-end: 5rem;
   width: 90%;
@@ -188,6 +188,12 @@ select {
   padding-inline: 1rem;
 }
 @media (min-width: 900px) {
+  .introductory__content {
+    align-self: center;
+    width: 43%;
+  }
+}
+@media (min-width: 1440px) {
   .introductory__content {
     align-self: center;
     width: 40%;
