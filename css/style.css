@@ -103,7 +103,13 @@ select {
   background-image: url("../../images/bg-hero-mobile.svg");
   background-color: hsl(193deg, 100%, 96%);
   background-repeat: no-repeat;
+  background-position: top;
   padding-block-end: 2rem;
+}
+@media (min-width: 900px) {
+  .huddle__introductory {
+    background-image: url("../../images/bg-hero-desktop.svg");
+  }
 }
 
 .huddle__header {
@@ -118,7 +124,7 @@ select {
 }
 
 .header__logo {
-  width: 30%;
+  width: 8rem;
 }
 
 .header__btn {
