@@ -5,6 +5,10 @@
   padding-block-start: 10rem;
   padding-block-end: 3rem;
 
+  @media (min-width: 1440px) {
+    padding-block-end: 5rem;
+  }
+
   color: #fff;
 
   &__container {
@@ -20,7 +24,7 @@
 
   &__logo {
     width: 50%;
-    max-width: 10rem;
+    max-width: 12rem;
     margin-block-end: 1rem;
 
     @media (min-width: 1440px) {

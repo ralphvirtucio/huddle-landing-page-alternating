@@ -256,7 +256,7 @@ select {
 }
 @media (min-width: 1440px) {
   .huddle__main {
-    padding-block-start: 15rem;
+    padding-block-start: 10rem;
   }
 }
 .huddle__main--section {
@@ -322,7 +322,7 @@ select {
   text-align: center;
   padding-block: 3rem;
   padding-inline: 1rem;
-  transform: translateY(80px);
+  transform: translateY(70px);
   background-color: #fff;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -349,6 +349,11 @@ select {
   padding-block-end: 3rem;
   color: #fff;
 }
+@media (min-width: 1440px) {
+  .footer {
+    padding-block-end: 5rem;
+  }
+}
 .footer__container {
   width: 90%;
   max-width: 120rem;
@@ -362,7 +367,7 @@ select {
 }
 .footer__logo {
   width: 50%;
-  max-width: 10rem;
+  max-width: 12rem;
   margin-block-end: 1rem;
 }
 @media (min-width: 1440px) {
