@@ -1,14 +1,14 @@
 @use '../abstracts/' as *;
 
 .huddle__introductory {
-  background-image: url('../../images/bg-hero-mobile.svg');
+  background-image: url('../images/bg-hero-mobile.svg');
   background-color: $neutral-color-1;
   background-repeat: no-repeat;
   background-position: center;
   padding-block-end: 2rem;
 
   @media (min-width: 900px) {
-    background-image: url('../../images/bg-hero-desktop.svg');
+    background-image: url('../images/bg-hero-desktop.svg');
   }
 
   @media (min-width: 1440px) {
