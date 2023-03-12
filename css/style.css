@@ -136,6 +136,11 @@ select {
     background-image: url("../../images/bg-hero-desktop.svg");
   }
 }
+@media (min-width: 1440px) {
+  .huddle__introductory {
+    padding-block-end: 5rem;
+  }
+}
 
 .huddle__header {
   display: flex;
@@ -251,7 +256,7 @@ select {
 }
 @media (min-width: 1440px) {
   .huddle__main {
-    padding-block-start: 10rem;
+    padding-block-start: 15rem;
   }
 }
 .huddle__main--section {
